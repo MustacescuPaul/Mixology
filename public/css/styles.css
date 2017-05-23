@@ -1,0 +1,94 @@
+.spacing-top-100{
+	margin-top: 100px;
+}
+.spacing-top-50{
+	margin-top: 2%;
+}
+container{
+	
+	min-height: 100%;
+}
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { color: #000 }
+@font-face{
+	font-family: 'PT Sans Narrow', sans-serif;
+	src:url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+}
+li{
+	background: url(/img/subliniere.png);
+	float: left;
+	background-position: center bottom;
+	background-size: 70px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	color: black;
+	min-width: 40px;
+	text-align: center;
+	padding: 4px 6px;
+	text-decoration: none;
+	border-radius: 10px;
+
+}
+li:hover{
+	background-color: rgba(0,0,0,0.2);
+}
+li.dropdown{
+	display: inline-block;
+	border-radius: 10px;
+	}
+.dropdown-menu {
+	display: none;
+	
+	background-color: rgba(0,0,0,0.2);
+	
+	border-radius: 10px;
+	}
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: rgba(0,0,0,0.2);
+	}
+a:hover {
+	background-color: rgba(0,0,0,0.2);
+	}
+
+*	{
+	margin: 0;
+	font-family: 'PT Sans Narrow', sans-serif;
+	}
+body{
+		background-image: url(/fundal.jpg);
+		background-image:url(/img/ggl.png), url(/img/cv.png), url(/img/ggr.png), url(/img/cdl.png), url(/img/cdr.png), radial-gradient(rgba(255,255,255,0), rgba(255,255,255,0.3)), url(/fundal.jpg);
+		background-position:left top, center top, right top, left bottom, right bottom, left top, left top;
+		background-size:100px, 400px, 100px, 100px, 100px, cover, cover;
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+		font-size: 20px;
+
+
+	}
+	
+.panel, .panel-heading,.panel-default{
+	background:transparent;
+	border: 0;
+}
+html{
+    position: relative;
+    min-height: 100%;
+
+}
+
+.navbar{
+	margin-top: 10%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 20px;
+  
+ 
+}
